@@ -10,6 +10,9 @@
 #54AB74
 #7454AB 
 #BC9076 */
+*{
+    box-sizing: border-box;
+}
 
 html{
     scroll-behavior: smooth;
@@ -64,6 +67,13 @@ nav a:hover{
 main {
     background-color: white;
     text-align: center;
+}
+
+.profile-image{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 36% 67% 63% 37% / 63% 62% 38% 36% ;
 }
 
 section:nth-child(even) {
